@@ -1,0 +1,5 @@
+{
+  "ValidSuffixes": [ "Core", "Web", "Data", "Api", "Common", "Services" ],
+  "EnforcePascalCase": true,
+  "EnforceMatchingProjectFileName": true
+}

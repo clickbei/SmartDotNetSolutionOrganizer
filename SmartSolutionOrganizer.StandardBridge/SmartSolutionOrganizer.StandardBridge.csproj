@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <LangVersion>8.0</LangVersion> <!-- Explicitly required for nullable & modern syntax -->
+    <ImplicitUsings>false</ImplicitUsings> <!-- Prevent C# 10+ features like global usings -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartSolutionOrganizer.Core\SmartSolutionOrganizer.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,32 @@
+﻿<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable">
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidSmartSolutionOrganizerPackage">
+    <Groups>
+      <Group guid="guidSmartSolutionOrganizerPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <!-- Tools Menu -->
+        <!--<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_SOLNNODE" />-->
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidSmartSolutionOrganizerPackageCmdSet" id="cmdidOrganizeSolution" priority="0x0100" type="Button">
+        <Parent guid="guidSmartSolutionOrganizerPackageCmdSet" id="MyMenuGroup" />
+        <Strings>
+          <ButtonText>Organize .NET Solution</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidSmartSolutionOrganizerPackageCmdSet" value="{d2f309ee-34be-4cc9-9c80-47a7701c7a7b}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="cmdidOrganizeSolution" value="0x0100" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidSmartSolutionOrganizerPackage" value="{4bed8a9c-e5b3-41f8-93c2-4d2f182ac7df}" />
+  </Symbols>
+</CommandTable>
