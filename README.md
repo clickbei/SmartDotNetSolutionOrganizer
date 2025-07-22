@@ -5,7 +5,6 @@
 **SmartDotNetSolutionOrganizer** is a developer productivity tool that automatically organizes .NET projects and enforces clean architecture conventions. It includes a reusable core engine and a Visual Studio extension to keep your solutions clean, modular, and maintainable.
 
 ---
-
 ## 🚀 Features
 
 - 🧠 **Best Practices Validation**
@@ -29,6 +28,21 @@
   - Clean architecture approach with Core, Interface, and UI layers
 
 ---
+
+## 🔗 Tech Stack & Compatibility
+This project uses a modular architecture that leverages:
+
+✅ .NET 8 for modern logic and tooling
+
+✅ .NET Standard 2.0 as a bridge layer
+
+✅ .NET Framework (VSIX) to support Visual Studio Extension
+
+🧩 .NET Standard serves as the compatibility layer between your .NET 8 logic and the VSIX project (which targets .NET Framework), enabling seamless code reuse across platforms.
+
+---
+
+
 
 ## 📂 Project Structure
 
