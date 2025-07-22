@@ -69,45 +69,49 @@ SmartDotNetSolutionOrganizer/
 └── README.md                            # This file
 ```
 
-📦 Installation
+## 📂 Installation
+
+
 🛠️ From Source
-Clone this repository
+- Clone this repository
 
-Open SmartDotNetSolutionOrganizer.sln in Visual Studio
+- Open SmartDotNetSolutio-nOrganizer.sln in Visual Studio
 
-Set SmartSolutionOrganizer.VSExt as the startup project
+- Set SmartSolutionOrganizer.VSExt as the startup project
 
-Press F5 to launch an experimental VS instance
+- Press F5 to launch an experimental VS instance
 
+---
 📥 (Coming Soon) From Marketplace
 Will be published to the Visual Studio Marketplace for one-click install.
+---
 
 ✅ Usage
-Open any .NET solution
+- Open any .NET solution
 
-Right-click the solution node in Solution Explorer
+- Right-click the solution node in Solution Explorer
 
-Click "Organize .NET Solution"
+- Click "Organize .NET Solution"
 
-View suggestions and issues detected in your output window
-
+- View suggestions and issues detected in your output window
+---
 🔧 Roadmap
- Auto-fix mode (move and rename projects)
+- Auto-fix mode (move and rename projects)
 
- UI panel for displaying violations
+- UI panel for displaying violations
 
- Project/solution templates
+- Project/solution templates
 
- Integration with Roslyn analyzers
+- Integration with Roslyn analyzers
 
- CLI version
-
+- CLI version
+---
 🤝 Contributing
-Contributions and ideas are welcome! Please open an issue or a pull request.
-
+- Contributions and ideas are welcome! Please open an issue or a pull request.
+---
 📄 License
-This project is licensed under the MIT License. See LICENSE for details.
-
+- This project is licensed under the MIT License. See LICENSE for details.
+---
 🙌 Author
-Developed by Axel Jumagdao — silently organizing code and solutions since 2016.
+- Developed by Axel Jumagdao — silently organizing code and solutions since 2016.
 
